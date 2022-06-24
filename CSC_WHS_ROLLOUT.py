@@ -128,3 +128,4 @@ for host in host_targets:
 		raise PrePostFreeze("Failed to connect to the device: {0}".format(e))
 #email the output collected in 'total'
 send_email(sbj, total)		
+
